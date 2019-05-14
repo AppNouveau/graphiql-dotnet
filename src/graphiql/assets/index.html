@@ -167,6 +167,7 @@
                         if (token) {
                             document.getElementById('jwt-token').value = token;
                             localStorage.setItem('graphiql:jwtToken', token);
+                            location.reload();                        
                         }
                         else {
                             alert("Invalid Credentials.");
