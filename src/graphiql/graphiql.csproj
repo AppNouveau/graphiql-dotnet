@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>GraphiQL</AssemblyName>
-    <PackageId>GraphiQLAuth</PackageId>
+    <PackageId>GraphiQLAuth-Jwt</PackageId>
     <PackageVersion>1.0.1</PackageVersion>
     <PackageTags>graphql,graphiql,asp.net core,.net core,jwt token, bearer token</PackageTags>
     <title>GraphiQL ASP.NET Core Middleware</title>
