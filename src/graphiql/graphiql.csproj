@@ -2,7 +2,7 @@
   <PropertyGroup>
     <AssemblyName>GraphiQL</AssemblyName>
     <PackageId>GraphiQLAuth-Jwt</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <PackageTags>graphql,graphiql,asp.net core,.net core,jwt token, bearer token</PackageTags>
     <title>GraphiQL ASP.NET Core Middleware</title>
     <TargetFramework>netstandard2.0</TargetFramework>
