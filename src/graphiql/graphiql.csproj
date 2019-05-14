@@ -2,11 +2,12 @@
   <PropertyGroup>
     <AssemblyName>GraphiQL</AssemblyName>
     <PackageId>GraphiQLAuth</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
     <PackageTags>graphql,graphiql,asp.net core,.net core,jwt token, bearer token</PackageTags>
     <title>GraphiQL ASP.NET Core Middleware</title>
     <TargetFramework>netstandard2.0</TargetFramework>
     <VersionPrefix>1.2.0</VersionPrefix>
-    <Authors>MatthewErtl</Authors>
+    <Authors>App Nouveau Canada</Authors>
     <Description>GraphiQLAuth available as middleware for ASP.NET Core</Description>
     <PackageIconUrl>https://raw.githubusercontent.com/mymatthew/graphiql-dotnet/master/assets/logo_128_128.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/mymatthew/graphiql-dotnet</PackageProjectUrl>
