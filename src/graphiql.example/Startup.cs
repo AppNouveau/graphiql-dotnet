@@ -26,9 +26,11 @@ namespace GraphiQl.example
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            app.UseGraphiQl(GraphQlPath);
+            
             /*app.UseGraphiQl(GraphQlPath, "/v1/something");*/
             app.UseMvc();
+
+            app.UseGraphiQl(GraphQlPath, GraphQlPath);
         }
     }
 }
