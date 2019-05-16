@@ -132,6 +132,10 @@
             document.getElementById("btnExcute").addEventListener("click", function () {
                 
             });
+            document.getElementById("jwt-token").addEventListener("change", function () {
+                localStorage.setItem('graphiql:jwtToken', document.getElementById("jwt-token").value);
+                location.reload();
+            });
         });
         // Collapsable Bearer Section
         var coll = document.getElementsByClassName("collapsible");

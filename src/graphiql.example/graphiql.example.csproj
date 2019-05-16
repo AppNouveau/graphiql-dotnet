@@ -10,4 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\graphiql\graphiql.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+  </ItemGroup>
 </Project>
